@@ -1,0 +1,16 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (se versiona solo el ejemplo)
+.env*
+!.env.example
+
+# Builds
+dist/
+
+# Terraform
+.terraform/
+*.tfstate*
+
+# macOS
+.DS_Store
